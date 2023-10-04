@@ -40,3 +40,13 @@
 .read-the-docs {
   color: #888;
 }
+
+.btnCount {
+  background: #646cff;
+  color: white;
+}
+
+.btnCount:active {
+  border: white;
+
+}
