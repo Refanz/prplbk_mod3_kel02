@@ -21,6 +21,21 @@ function App() {
     return (
         <>
 
+<Typography variant="h3" component="h2">
+                Tugas Kelompok 2 Modul 3
+            </Typography>
+            <div className="card">
+
+                <Stack direction="row" spacing={2}>
+                    <Button variant="contained" onClick={plusCount} startIcon={<Add/>}>Plus</Button>
+
+                    <Button variant="contained" color="error" onClick={minusCount} startIcon={<Remove/>}>Minus</Button>
+
+                    <Typography variant="h6">
+                        Count: {count}
+                    </Typography>
+                </Stack>
+                </div>
         </>
     )
 }
