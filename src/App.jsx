@@ -10,7 +10,14 @@ function App() {
     useEffect(() => {
         count === 10 ? setIsTen(true) : setIsTen(false);
     }, [count]);
+    
+    function plusCount() {
+      setCount(count + 1);
+  }
 
+  function minusCount() {
+      setCount(count - 1);
+  }
     return (
         <>
 
